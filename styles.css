@@ -1,0 +1,60 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+* { border: 0; margin: 0; }
+
+img { border: 0px; }
+
+a {text-decoration: none; color:#FFFFFF;}
+
+a:hover { text-decoration: none; color: #FFFF00; }
+
+h1 { font-size: 4em; }
+
+body {
+	font: 12px sans-serif;
+	color: #FFFFFF;
+	background: #000000;
+}
+
+#background {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+}
+
+#main {
+	width: 100%;
+	margin: 0px auto;
+}
+
+
+#header { 
+  margin: 20px;
+  text-align:center;
+  color: #FFFFFF;
+}
+
+
+#content{
+	width: 80%;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 20px;
+}
+
+#footer{
+	height: 48px;
+	width: 80%;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align: center;
+	clear:both;
+	padding: 17px 0px 0px 0px;
+}
+
