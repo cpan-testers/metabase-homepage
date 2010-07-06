@@ -8,16 +8,22 @@ Released for free under a Creative Commons Attribution 2.5 License
 
 img { border: 0px; }
 
-a {text-decoration: none; color:#FFFFFF;}
+p { margin: 10px 0 0; }
 
-a:hover { text-decoration: none; color: #FFFF00; }
+ul { margin: 10px 0 0; }
 
-h1 { font-size: 4em; }
+li { margin: 5px 0 0; }
+
+a {text-decoration: none; color:#00C;}
+
+a:hover { text-decoration: none; color: #F00; }
+
+h1 { font-size: 3em; }
 
 body {
-	font: 12px sans-serif;
-	color: #FFFFFF;
-	background: #000000;
+	font: 18px sans-serif;
+	color: #000;
+	background: #fff;
 }
 
 #background {
@@ -43,9 +49,13 @@ body {
 
 
 #content{
-	width: 80%;
-	padding: 0px 0px 0px 0px;
-	margin: 0px 0px 0px 20px;
+	padding: 2em;
+	margin-top: 2em;
+        margin-bottom: 0;
+        margin-left: 4em;
+        margin-right: 4em;
+	border: 4px solid gray;
+	background: white;
 }
 
 #footer{
